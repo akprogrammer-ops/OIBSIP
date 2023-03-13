@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cabin&family=DM+Sans&family=Merriweather:wght@300&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #2A83C4;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    padding: 12px 30px;
+    color: white;
+    display:flex;   
+    justify-content: space-around;    
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    transform: translate(-110%);  
+
+} 
+.menu{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-family: "Verdana"
+}
+
+.right{
+    position: absolute;
+    top:90%;
+    left: 85%;
+    transform: translate(-90%,-85%);
+    width: 30%;
+    height: 80%;
+}
+video{
+    width: 100%;   
+} 
+.maintext{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 15px;
+    color: white;
+}
+.maintext p{
+    letter-spacing: .1px;
+    font-family:sans-serif;
+    font-weight: 600;
+}
+.maintext h1{
+    font-size: 4em;
+    line-height: 1.5em;
+    word-spacing: 2px;
+    font-family: 'Merriweather', serif;
+
+}
+.maintext h2{
+    margin-bottom: 0.5em;
+}
+
+.extext {
+    color: white;
+    height: 100px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-row: auto auto;
+    background-color:#2A83C4;
+}
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: cursive; 
+}
+
+.button{
+    transform: translate(-10px,50px);
+    letter-spacing: 1px;
+    font-size: 20px
+}
+.button a {
+    position: relative;
+    display: -ms-inline-grid;
+    color: #2A83C4;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    margin: 20px;
+    transition: .4s all;
+    border-radius:20px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.button a:hover{
+    background-color: #2A83C4;
+    box-shadow: 0px 0px 15px 0px white;
+    color: white;   
+    outline: none;
+}
+    
